@@ -329,6 +329,17 @@
                                           "Goodbye! Have a great day.",
                                           "See you later!"
                                       ]
+                    },
+                    {
+                        "patterns":  [
+                                         "who created you",
+                                         "who made you",
+                                         "who is your developer"
+                                     ],
+                        "tag":  "creator",
+                        "responses":  [
+                                          "I was developed by shalahthaikkadan."
+                                      ]
                     }
                 ]
 }
