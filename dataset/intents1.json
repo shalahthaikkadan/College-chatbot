@@ -1,0 +1,334 @@
+{
+    "intents":  [
+                    {
+                        "tag":  "location",
+                        "patterns":  [
+                                         "Where is the college located?",
+                                         "What is the college address?",
+                                         "How can I reach the college?",
+                                         "Tell me the location of Royal College of Engineering",
+                                         "How do I get to Royal College Thrissur?"
+                                     ],
+                        "responses":  [
+                                          "Royal College of Engineering \u0026 Technology is located in Akkikavu, Thrissur, Kerala – 680519. You can find it on Google Maps here: https://goo.gl/maps/QFov7RHYyf4cr8cn6"
+                                      ],
+                        "context_set":  ""
+                    },
+                    {
+                        "tag":  "courses",
+                        "patterns":  [
+                                         "What courses are offered?",
+                                         "Tell me about the courses in Royal College",
+                                         "List the programs available",
+                                         "Which branches are there?",
+                                         "What departments does the college have?"
+                                     ],
+                        "responses":  [
+                                          "Royal College of Engineering offers B.Tech programs in CSE, ECE, EEE, ME, and CE. PG programs include M.Tech in selected branches."
+                                      ],
+                        "context_set":  ""
+                    },
+                    {
+                        "tag":  "contact",
+                        "patterns":  [
+                                         "How can I contact the college?",
+                                         "Give me the phone number",
+                                         "College contact details",
+                                         "Email address of the college",
+                                         "Who do I contact for admission?"
+                                     ],
+                        "responses":  [
+                                          "You can contact the college at +91-4885-289000 or email info@royalcet.ac.in"
+                                      ],
+                        "context_set":  ""
+                    },
+                    {
+                        "tag":  "admission",
+                        "patterns":  [
+                                         "How can I apply for admission?",
+                                         "Admission process in Royal College",
+                                         "Tell me how to get admission",
+                                         "How do I join the college?",
+                                         "What are the admission criteria?"
+                                     ],
+                        "responses":  [
+                                          "Admissions are based on KEAM rank for merit seats. Management seats are also available. Visit the official website or contact the admission office for more details."
+                                      ],
+                        "context_set":  ""
+                    },
+                    {
+                        "tag":  "facilities",
+                        "patterns":  [
+                                         "What facilities are available?",
+                                         "Does the college have a hostel?",
+                                         "Is there a library in the college?",
+                                         "Tell me about the infrastructure",
+                                         "Do you have transport facilities?"
+                                     ],
+                        "responses":  [
+                                          "The college offers hostel, library, transportation, Wi-Fi, labs, seminar halls, cafeteria, and more for students."
+                                      ],
+                        "context_set":  ""
+                    },
+                    {
+                        "tag":  "principal",
+                        "patterns":  [
+                                         "Who is the principal?",
+                                         "Tell me about the principal of the college",
+                                         "Name of the principal?",
+                                         "Who is the head of the institution?"
+                                     ],
+                        "responses":  [
+                                          "Dr. R. Renuka is the Principal of Royal College of Engineering \u0026 Technology."
+                                      ],
+                        "context_set":  ""
+                    },
+                    {
+                        "tag":  "placements",
+                        "patterns":  [
+                                         "What about placements?",
+                                         "Does the college offer placement assistance?",
+                                         "Tell me about the placement record",
+                                         "Are there campus recruitments?",
+                                         "How are the placements at Royal College?"
+                                     ],
+                        "responses":  [
+                                          "Yes, Royal College has a dedicated Training \u0026 Placement Cell. Many students get placed in companies like TCS, Infosys, Wipro, and more."
+                                      ],
+                        "context_set":  ""
+                    },
+                    {
+                        "tag":  "fees",
+                        "patterns":  [
+                                         "What is the fee structure?",
+                                         "Tell me the fees for B.Tech",
+                                         "How much is the college fee?",
+                                         "Is it expensive to study there?",
+                                         "Fees for each semester?"
+                                     ],
+                        "responses":  [
+                                          "The fee structure varies by program and quota (Merit/Management). Please refer to the official website or contact the college office for detailed info."
+                                      ],
+                        "context_set":  ""
+                    },
+                    {
+                        "tag":  "transport",
+                        "patterns":  [
+                                         "Is there transportation?",
+                                         "Do you have college buses?",
+                                         "How can I travel to college daily?",
+                                         "Tell me about the bus service"
+                                     ],
+                        "responses":  [
+                                          "Yes, the college provides transportation facilities from major towns and nearby districts."
+                                      ],
+                        "context_set":  ""
+                    },
+                    {
+                        "tag":  "hostel",
+                        "patterns":  [
+                                         "Do you have hostel facilities?",
+                                         "Is there a boys\u0027 hostel?",
+                                         "Tell me about the girls\u0027 hostel",
+                                         "How are the hostel rooms?",
+                                         "Can I stay on campus?"
+                                     ],
+                        "responses":  [
+                                          "Yes, the college has separate hostel facilities for boys and girls with good amenities and 24/7 security."
+                                      ],
+                        "context_set":  ""
+                    },
+                    {
+                        "tag":  "events",
+                        "patterns":  [
+                                         "Do you conduct college events?",
+                                         "Tell me about the tech fest",
+                                         "Is there a cultural fest?",
+                                         "What events are held in college?",
+                                         "Any annual day celebrations?"
+                                     ],
+                        "responses":  [
+                                          "Yes! The college hosts technical fests, cultural events, sports meets, and annual day celebrations regularly."
+                                      ],
+                        "context_set":  ""
+                    },
+                    {
+                        "tag":  "library",
+                        "patterns":  [
+                                         "Do you have a library?",
+                                         "Tell me about the library facilities",
+                                         "Are there enough books?",
+                                         "Is there a digital library?",
+                                         "Can students borrow books?"
+                                     ],
+                        "responses":  [
+                                          "The college has a well-stocked library with books, journals, digital resources, and a reading hall for students."
+                                      ],
+                        "context_set":  ""
+                    },
+                    {
+                        "tag":  "labs",
+                        "patterns":  [
+                                         "What kind of labs are available?",
+                                         "Do you have computer labs?",
+                                         "Are there electronics labs?",
+                                         "Tell me about the lab facilities",
+                                         "Are the labs well equipped?"
+                                     ],
+                        "responses":  [
+                                          "Yes, Royal College has well-equipped labs for all departments including computer, electronics, electrical, mechanical, and civil labs."
+                                      ],
+                        "context_set":  ""
+                    },
+                    {
+                        "tag":  "canteen",
+                        "patterns":  [
+                                         "Is there a canteen?",
+                                         "Where do students eat?",
+                                         "Do you have food facilities?",
+                                         "Tell me about the college canteen",
+                                         "Is food available in college?"
+                                     ],
+                        "responses":  [
+                                          "Yes, the college has a clean and hygienic canteen that offers a variety of food and refreshments at affordable prices."
+                                      ],
+                        "context_set":  ""
+                    },
+                    {
+                        "tag":  "clubs",
+                        "patterns":  [
+                                         "Are there student clubs?",
+                                         "Tell me about extracurricular activities",
+                                         "Do you have tech clubs?",
+                                         "What clubs can students join?",
+                                         "Are there any cultural clubs?"
+                                     ],
+                        "responses":  [
+                                          "Yes! The college has several student clubs like NSS, IEEE, CSI, arts club, and more to promote co-curricular activities."
+                                      ],
+                        "context_set":  ""
+                    },
+                    {
+                        "tag":  "scholarships",
+                        "patterns":  [
+                                         "Are scholarships available?",
+                                         "Can I get a fee concession?",
+                                         "Tell me about financial aid",
+                                         "Do you offer any student support?",
+                                         "Is there any help for low-income students?"
+                                     ],
+                        "responses":  [
+                                          "Yes, eligible students can apply for government and management scholarships. The college also supports various fee concession schemes."
+                                      ],
+                        "context_set":  ""
+                    },
+                    {
+                        "tag":  "timings",
+                        "patterns":  [
+                                         "What are the college timings?",
+                                         "When do classes start?",
+                                         "What is the working time?",
+                                         "When is the lunch break?",
+                                         "What is the daily schedule?"
+                                     ],
+                        "responses":  [
+                                          "The regular college timings are from 9:00 AM to 4:00 PM, Monday to Friday. Lunch break is from 12:45 PM to 1:30 PM."
+                                      ],
+                        "context_set":  ""
+                    },
+                    {
+                        "tag":  "faculty",
+                        "patterns":  [
+                                         "How is the faculty?",
+                                         "Tell me about the teachers",
+                                         "Are there qualified lecturers?",
+                                         "Is the teaching staff good?",
+                                         "Who teaches in Royal College?"
+                                     ],
+                        "responses":  [
+                                          "The college has experienced and qualified faculty members dedicated to quality education and student support."
+                                      ],
+                        "context_set":  ""
+                    },
+                    {
+                        "tag":  "website",
+                        "patterns":  [
+                                         "What is the college website?",
+                                         "Where can I find more information online?",
+                                         "Give me the official website",
+                                         "College web address?"
+                                     ],
+                        "responses":  [
+                                          "You can visit the official website at https://www.royalcet.ac.in for more details."
+                                      ],
+                        "context_set":  ""
+                    },
+                    {
+                        "tag":  "calendar",
+                        "patterns":  [
+                                         "What is the academic calendar?",
+                                         "When do semesters start?",
+                                         "Tell me about important dates",
+                                         "Exam schedule?",
+                                         "When does the next semester begin?"
+                                     ],
+                        "responses":  [
+                                          "The academic calendar is published on the website. It includes semester dates, holidays, and exams. Please check the ‘Downloads’ section."
+                                      ],
+                        "context_set":  ""
+                    },
+                    {
+                        "tag":  "documents",
+                        "patterns":  [
+                                         "What documents are needed for admission?",
+                                         "Tell me the documents required",
+                                         "What should I bring for joining?",
+                                         "List of certificates needed",
+                                         "Do I need original documents?"
+                                     ],
+                        "responses":  [
+                                          "You need 10th \u0026 12th mark sheets, KEAM allotment memo, TC, conduct certificate, and passport-size photos. Originals are required during admission."
+                                      ],
+                        "context_set":  ""
+                    },
+                    {
+                        "tag":  "certificates",
+                        "patterns":  [
+                                         "How can I get my certificate?",
+                                         "How to apply for a bonafide certificate?",
+                                         "Do you give course completion certificates?",
+                                         "Where to apply for transcripts?",
+                                         "Tell me how to get my documents"
+                                     ],
+                        "responses":  [
+                                          "You can request certificates like bonafide, course completion, and transcripts from the college office with a written application or form."
+                                      ],
+                        "context_set":  ""
+                    },
+                    {
+                        "patterns":  [
+                                         "hi",
+                                         "hello",
+                                         "hey",
+                                         "good morning"
+                                     ],
+                        "tag":  "greeting",
+                        "responses":  [
+                                          "Hello! How can I assist you today?",
+                                          "Hi there!"
+                                      ]
+                    },
+                    {
+                        "patterns":  [
+                                         "bye",
+                                         "goodbye",
+                                         "see you"
+                                     ],
+                        "tag":  "farewell",
+                        "responses":  [
+                                          "Goodbye! Have a great day.",
+                                          "See you later!"
+                                      ]
+                    }
+                ]
+}
